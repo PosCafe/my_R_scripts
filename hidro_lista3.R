@@ -1,6 +1,6 @@
 #<Code>
 #Metodo de Penman
-setwd("/home/paulo/Documentos/Hidrometeorologia/lista3")
+setwd("Directory_Of_USER")
 
  t <- read.csv("temperatura_penman.csv", header=T, sep=";")
  vento <- read.csv("vento.csv", header=T, sep=";")
