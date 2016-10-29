@@ -13,7 +13,6 @@ setwd("Directory_Of_USER")
  evapo_abrigo <- t(evapo_abrigo)
  prec <- read.csv("preciptacao.csv", header=T, sep=";")
  
- 
 ##Costantes e vetores
 L <- 59
 alpha <- 0.3
@@ -22,7 +21,6 @@ fc <- c(1.17, 1.01, 1.05, 0.97, 0.94, 0.88, 0.93, 0.98, 1.00, 1.10, 1.11, 1.18)
 #p <- c(0.31, 0.29, 0.28, 0.26, 0.25, 0.24, 0.24, 0.26, 0.27, 0.29, 0.30, 0.31)
 meses <- month.abb
 I <- NULL
-
 
 ##A equacao de Penman: E0 = [(delta/gama)*(qef/L) +Ei]/[(delta/gama) + 1]
 #No final tem que transpor a matriz de E0
